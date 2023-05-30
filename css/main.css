@@ -1,0 +1,375 @@
+@font-face {
+    font-family:Alegreya;
+    src: url('../webfont/Alegreya/Alegreya-Regular.ttf');
+}
+@font-face {
+    font-family:Alegreya sans;
+    src: url('../webfont/Alegreya_Sans/AlegreyaSans-Regular.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Alegreya sans;
+}
+a:link{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+img{
+    width: 100%;
+}
+.clr{
+    clear: both;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.p-70{
+    padding: 70px 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:Alegreya;
+    font-weight: 500;
+}
+
+
+.Home{
+    background-image: url(../img/home.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+}
+.Home .about{
+width: 58%;
+text-align: center;
+margin: 30vh auto;
+}
+.Home .A{
+    font-size: 22px;
+}
+.Home h1{
+    padding: 10px 0;
+    font-size: 76px;
+}
+.Home p{
+    font-size: 24px;
+    color: rgba(255,255,255, .92);
+}
+.Home .btn{
+    padding: 15px 28px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    color: white;
+    border-radius: 3px;
+    border-color: rgb(255, 255, 255);
+}
+.Home .btn1{
+    background-color: #8e7754;
+    border: none;
+    margin-right: 10px;
+}
+
+
+.who{
+    padding: 70px 0;
+}
+.who .about{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.who .about.p-70{
+    margin-top: 70px;
+}
+.who img{
+    width:100%;
+} 
+.who h2{
+    font-size: 32px;
+    color: #303030;
+}
+.who p{
+padding: 20px 0;
+font-size: 17px;
+line-height: 2;
+color: #686868;
+}
+.who li{
+    font-size: 17px;
+    padding: 20px 0;
+    color: #686868;
+    position: relative;
+
+}
+.who li i{
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.15);
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    top: 8px;
+}
+.who li span{
+    margin-left: 60px;
+}
+
+
+.ourlocation{
+    background-color: #f8f8f8;
+    padding: 70px 0;
+    
+}
+.ourlocation .about{
+    width: 50%;
+    float: left;
+}
+.ourlocation .p-70{
+    margin-top: 20px;
+}
+.ourlocation img{
+    width: 90%;
+}
+.ourlocation h2{
+    margin-left: 15px;
+    font-size: 32px;
+    color: #303030;
+}
+.ourlocation p{
+    padding: 15px;
+    line-height: 2;
+font-size: 17px;
+color: #686868;
+}
+
+
+.ourbaking .about1{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.ourbaking .contact{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+.ourbaking .contact h4{
+    font-size: 22px;
+    padding: 13px 0;
+    color: #303030;
+}
+.ourbaking .contact p{
+    color: #686868;
+    line-height: 1.9;
+}
+.ourbaking .about1 h3{
+padding-bottom: 20px;
+color: #303030;
+font-size: 30px;
+}
+.ourbaking .about1 p{
+    color: #888888;
+    font-size: 17px;
+}
+
+
+
+.Information{
+    background-color: #f8f8f8;
+}
+.Information .about{
+    width: 50%;
+    float: left;
+}
+.Information h2{
+    color: #303030;
+    font-size: 32px;
+}
+.Information p{
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #686868;
+}
+.Information li{
+    padding: 20px 0;
+    font-size: 17px;
+    color: #686868;
+    position: relative;
+}
+.Information li i{
+    position: absolute;
+    margin-right: 10px;
+    background-color: #8e7754;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 2.5;
+    top: 8px;
+}
+.Information li span{
+    margin-left: 60px;
+}
+.footer{
+    background-color: #353330;
+    line-height: 1.8em;
+}
+.footer .about{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.footer .about .text{
+    margin-top: 15px;
+}
+.footer h4{
+    padding-bottom: 15px;
+    color: white;
+    font-size: 18px;
+}
+.footer p{
+    color: #969696;
+    margin-top: 7px;
+}
+.footer li{
+    color: #969696;
+    padding: 8px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.footer li i{
+    margin-right: 7px;
+}
+.footer a{
+    color: #969696;
+    padding: 15px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    display: block;
+}
+.footer .address{
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.footer .about .fa-solid{
+    margin-right: 10px;
+}
+.footer2{
+    background-color:#1b1b1b;
+
+}
+.footer2 .about{
+    width: 100%;
+    text-align: center;
+}
+.footer2 img{
+    width: 28%;
+}
+.footer2 p{
+    padding: 20px 0;
+    color: #777777;
+}
+.footer2 .fa-brands{
+    background-color: #484540;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    font-size: 19px;
+    line-height: 2;
+    margin-right: 8px;
+}
+@media screen and (max-width:1024px){
+  .who img{
+    padding-top: 70px;
+  }
+  .ourlocation img{
+    padding-top: 60px;
+  }
+    .Information .about iframe{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 889px){
+    .Home {
+        height: 80vh;
+    }
+    .Home h1 {
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .Home {
+        height: 80vh;
+    }
+    .Home .about{
+        width: 100%;
+        }
+    .who .about{
+        width: 100%;
+    }
+    .ourlocation .about{
+        width: 100%;
+    }
+    .ourlocation img {
+        width: 100%;
+    }
+    .ourbaking .contact{
+        width: 50%;
+    }
+    .Information .about{
+        width: 100%;
+    }
+    .Information .about iframe{
+        width: 100%;
+    }
+    .footer .about{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+.Home{
+    height: 70vh;
+}
+.Home .about{
+width: 100%;
+}
+.Home h1{
+    font-size: 44PX;
+}
+.Home P{
+    font-size: 16px;
+}
+.who{
+    width: 100%;
+}
+.who .about{
+    width: 100%;
+
+}
+.ourlocation .about{
+    width: 100%;
+}
+.ourbaking .contact{
+    width: 100%;
+}
+.Information .about{
+    width: 100%;
+}
+.Information .about iframe{
+    width: 100%;
+}
+.footer .about{
+    width: 100%;
+}
+}
