@@ -355,7 +355,10 @@ width: 100%;
 }
 .who .about{
     width: 100%;
-
+padding: 0;
+}
+.who li span{
+    line-height: 1.8;
 }
 .ourlocation .about{
     width: 100%;
